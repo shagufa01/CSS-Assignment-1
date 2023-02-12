@@ -80,6 +80,7 @@ button {
     font-weight: bold;
     margin-left: 15px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .fa-cart-shopping {
