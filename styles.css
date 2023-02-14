@@ -4,85 +4,79 @@
     box-sizing: border-box;
 }
 
-.product-image {
-    width: 25%;
-    }
-
-.product-description {
-    width: 20%;
-    padding: 60px 20px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: white;
+body {
+    background-color: papayawhip;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
+  }
+
+
+.image {
+    width: 80px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
-.chanel-perfume-img {
-    width: 100%;
-    height: 700px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-h3 {
+h6 {
+    letter-spacing: 2px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: rgb(128, 128, 128);
+    color: gray;
+    font-size: 3px;
     font-family: sans-serif;
-    margin-bottom: 10px;
-    padding: 20px;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
 }
 
-h1{
-    padding: 10px 15px 15px 15px;
-    margin-bottom: 10px;
+h5 {
+    font-family: 'Fraunces', serif;
+    line-height: 10px;
+    margin-bottom: 5px;
 }
 
+.product-description {
+    background-color: white;
+    padding: 5px 20px 0px 10px;
+    width: 90px;
+    font-size: 12px;
+    height: 120px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4px;
     color: gray;
-    line-height: 25px;
-    margin-bottom: 10px;
-    font-family:sans-serif;
-    padding: 15px;
-}
-
-.price {
-    margin: 15px 15px 25px 15px;
-}
-
-.span2 {
-    color: gray;
-    font-size: 12px;
-    margin-left: 5px;
-    padding-bottom: 5px;
+    line-height: 6px;
 }
 
 .span1 {
-    color: rgb(27, 138, 155);
-    font-family: 'Noto Serif Khojki', serif;
-    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-size: 8px;
+    color: rgba(61,129,104,255);
+}
+
+.span2 {
+    font-size: 4px;
+    color: gray;
 }
 
 button {
-    width: 200px;
-    height: 50px;
-    background-color: rgb(27, 138, 155);
+    width: 60px;
+    height: 12px;
+    font-size: 4px;
     border: none;
+    background-color: rgba(61,129,104,255);
     color: white;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: 15px;
-    margin-top: 10px;
-    cursor: pointer;
+    border-radius: 2px;
 }
 
-.fa-cart-shopping {
-    margin-right: 5px;
+.fa-solid {
+    font-size: 4px;
+    margin-right: 2px;
 }
+
